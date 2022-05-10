@@ -1,0 +1,46 @@
+body{
+    max-width: 50%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-left{
+    max-width: 20%;
+    min-width: 200px;
+    background-color: #2E86AB;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.section-right{
+    max-width: 80%;
+    padding: 10px;
+    
+}
+
+.profile-picture{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    background-color: #2E86AB;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #ffffff5d;
+}
+
+.table-content{
+    width: 100%;
+}
